@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21292804-19db-4e15-b27c-0b61ddde3854" name="Default Changelist" comment="" />
+    <list default="true" id="21292804-19db-4e15-b27c-0b61ddde3854" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d3/q6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d4/q7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q1-2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/d1/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q1-2/q1.py" beforeDir="false" afterPath="$PROJECT_DIR$/d1/q1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q1-2/q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/d1/q2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q3-4/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/d2/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q3-4/q3.py" beforeDir="false" afterPath="$PROJECT_DIR$/d2/q3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q3-4/q4.py" beforeDir="false" afterPath="$PROJECT_DIR$/d2/q4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q5-6/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/d3/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/q5-6/q5.py" beforeDir="false" afterPath="$PROJECT_DIR$/d3/q5.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,16 +22,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/advent_of_code_2018$q6.coverage" NAME="q6 Coverage Results" MODIFIED="1544196432454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q5-6" />
     <SUITE FILE_PATH="coverage/advent_of_code_2018$q4.coverage" NAME="q4 Coverage Results" MODIFIED="1544020048363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q3-4" />
     <SUITE FILE_PATH="coverage/advent_of_code_2018$q2.coverage" NAME="q2 Coverage Results" MODIFIED="1543868456806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q1-2" />
+    <SUITE FILE_PATH="coverage/advent_of_code_2018$q7.coverage" NAME="q7 Coverage Results" MODIFIED="1544211203710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/d4" />
     <SUITE FILE_PATH="coverage/advent_of_code_2018$q3.coverage" NAME="q3 Coverage Results" MODIFIED="1543976414304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q3-4" />
-    <SUITE FILE_PATH="coverage/advent_of_code_2018$q4__1_.coverage" NAME="q5 Coverage Results" MODIFIED="1544115695625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q5-6" />
+    <SUITE FILE_PATH="coverage/advent_of_code_2018$q4__1_.coverage" NAME="q5 Coverage Results" MODIFIED="1544196191762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q5-6" />
     <SUITE FILE_PATH="coverage/advent_of_code_2018$q1.coverage" NAME="q1 Coverage Results" MODIFIED="1543864470629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/q1" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q1-2/q1.py">
+        <entry file="file://$PROJECT_DIR$/d1/q1.py">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-line="11" />
@@ -27,7 +42,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q1-2/q2.py">
+        <entry file="file://$PROJECT_DIR$/d1/q2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
@@ -36,7 +51,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q3-4/q3.py">
+        <entry file="file://$PROJECT_DIR$/d2/q3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" selection-start-line="26" selection-end-line="26" />
@@ -45,7 +60,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/q3-4/q4.py">
+        <entry file="file://$PROJECT_DIR$/d2/q4.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="5" selection-end-line="5" />
@@ -53,14 +68,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/q5-6/q5.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d3/q5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="162">
+              <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="e#1#19#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d3/q6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/d4/q7.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="735">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="e#1#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/lib/python3.7/site-packages/pandas/core/generic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="362">
+              <caret line="1381" selection-start-line="1381" selection-end-line="1381" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/d4/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1590">
+              <caret line="106" selection-start-line="106" selection-end-line="106" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -74,6 +128,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -83,15 +140,18 @@
         <option value="$PROJECT_DIR$/q3-4/q3.py" />
         <option value="$PROJECT_DIR$/q3-4/q4.py" />
         <option value="$PROJECT_DIR$/q5-6/q5.py" />
+        <option value="$PROJECT_DIR$/q5-6/q6.py" />
+        <option value="$PROJECT_DIR$/d4/q7.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-2590" />
+    <option name="x" value="2560" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
-    <option name="height" value="987" />
+    <option name="width" value="2560" />
+    <option name="height" value="1417" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <autoscrollFromSource ProjectPane="true" />
@@ -108,17 +168,12 @@
             <path>
               <item name="advent_of_code_2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="advent_of_code_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="q1-2" type="462c0819:PsiDirectoryNode" />
+              <item name="d3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="advent_of_code_2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="advent_of_code_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="q3-4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="advent_of_code_2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="advent_of_code_2018" type="462c0819:PsiDirectoryNode" />
-              <item name="q5-6" type="462c0819:PsiDirectoryNode" />
+              <item name="d4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -132,15 +187,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/q3-4" />
-      <recent name="$PROJECT_DIR$/q1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/d4" />
+      <recent name="$PROJECT_DIR$/q5-6" />
+      <recent name="$PROJECT_DIR$/q3-4" />
+      <recent name="$PROJECT_DIR$/q1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -155,7 +213,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.q5">
+  <component name="RunManager" selected="Python.q7">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="advent_of_code_2018" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,12 +244,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/q1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q1/q1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d1/q1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,12 +266,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/q1-2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d1" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q1-2/q2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d1/q2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -230,12 +288,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/q3-4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d2" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q3-4/q3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d2/q3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,12 +310,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/q3-4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d2" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q3-4/q4.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d2/q4.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,12 +332,56 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/q5-6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d3" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/q5-6/q5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d3/q5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="q6" type="PythonConfigurationType" factoryName="Python">
+      <module name="advent_of_code_2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d3" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d3/q6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="q7" type="PythonConfigurationType" factoryName="Python">
+      <module name="advent_of_code_2018" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="/usr/local/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d4" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d4/q7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -294,6 +396,8 @@
       <item itemvalue="Python.q3" />
       <item itemvalue="Python.q4" />
       <item itemvalue="Python.q5" />
+      <item itemvalue="Python.q6" />
+      <item itemvalue="Python.q7" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -311,24 +415,23 @@
       <workItem from="1543975406345" duration="3892000" />
       <workItem from="1544060987504" duration="3133000" />
       <workItem from="1544102468389" duration="7413000" />
-      <workItem from="1544112507701" duration="2769000" />
+      <workItem from="1544112507701" duration="11325000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23494000" />
+    <option name="totallyTimeSpent" value="32050000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2560" y="23" width="2560" height="1417" extended-state="6" />
-    <editor active="true" />
+    <frame x="2560" y="23" width="2560" height="1417" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16123907" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.14669739" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4369266" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25268817" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4362519" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -342,7 +445,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Remote Host" order="3" />
-      <window_info anchor="right" id="SciView" order="4" weight="0.36996338" />
+      <window_info active="true" anchor="right" id="SciView" order="4" visible="true" weight="0.3697379" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="6" side_tool="true" weight="0.32967034" />
     </layout>
@@ -351,15 +454,33 @@
     <option name="version" value="1" />
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/d4/q7.py</url>
+          <line>68</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/d4/q7.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="np.sum(fabric)" language="Python" />
-        <watch expression="np.sum(fabric[fabric &gt; 1])" language="Python" />
+        <watch expression="i[&quot;minute&quot;]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>i[&quot;minute&quot;]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>np.sum(fabric[fabric &gt; 1])</expression-string>
         <language-id>Python</language-id>
@@ -400,48 +521,93 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q1-2/input.txt">
+    <entry file="file://$PROJECT_DIR$/d1/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q5-6/input.txt">
+    <entry file="file://$PROJECT_DIR$/d3/input.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/q1-2/q1.py">
+    <entry file="file://$PROJECT_DIR$/d1/q1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q1-2/q2.py">
+    <entry file="file://$PROJECT_DIR$/d1/q2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q3-4/q3.py">
+    <entry file="file://$PROJECT_DIR$/d2/q3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q3-4/q4.py">
+    <entry file="file://$PROJECT_DIR$/d2/q4.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/q5-6/q5.py">
+    <entry file="file://$PROJECT_DIR$/d3/q5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="162">
+          <caret line="21" column="16" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding>
+            <element signature="e#1#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d3/q6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="43" column="27" lean-forward="true" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d4/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1590">
+          <caret line="106" selection-start-line="106" selection-end-line="106" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pandas/core/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="1381" selection-start-line="1381" selection-end-line="1381" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python3.7/site-packages/pandas/core/series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="119" column="18" lean-forward="true" selection-start-line="119" selection-start-column="18" selection-end-line="119" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/d4/q7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#1#19#0" expanded="true" />
           </folding>
