@@ -1,7 +1,6 @@
-
-import numpy as np
 import pandas as pd
-from tqdm import tqdm
+from operator import itemgetter
+
 import re
 
 fname = "input.txt"
@@ -32,6 +31,7 @@ for text in content:
     elif training_text.find('Guard') != -1:
         n = re.search('#(.+?) ', text)
         guard_number = int(n.group(1))
+        state = ""
     elif training_text.find('wakes up') != -1:
         state = "stop"
     else:
@@ -50,25 +50,33 @@ for text in content:
 
 last_guard = []
 last_guard_start = []
-for _, i in df.iterrows():
-    if i["guard_number"] != 0:
+for index, i in df.iterrows():
+    if i["guard_number"] != 0.0:
         last_guard = i["guard_number"]
     elif i["state"] == "start":
-        i["guard_number"] = last_guard
+        df.at[index, "guard_number"] = last_guard
         last_guard_start = last_guard
     elif i["state"] == "stop":
-        i["guard_number"] = last_guard_start
+        df.at[index, "guard_number"] = last_guard_start
     else:
         assert False, "Impossible"
 
-guard_sleep_time = np.zeros(df['guard_number'].max())
-guard_sleep_start = np.zeros(df['guard_number'].max())
-for _, i in df.iterrows():
-    if i["state"] == "start":
-        guard_sleep_start[i["guard_number"]] = i["minute"]
-    if i["state"] == "stop":
-        guard_sleep_time[i["guard_number"]] = i["minute"] - guard_sleep_start[i["guard_number"]]
+unique_guards = df['guard_number'].unique()
 
+sleep_time = []
+for i in unique_guards:
+    temp = df[(df['guard_number'] == i) & (df['state'] != "")]
+    start_sleep = 0
+    sum_sleep = 0
+    for j in temp.iterrows():
+        if start_sleep:
+            sum_sleep += j[1]['minute'] - start_sleep
+            start_sleep = 0
+        else:
+            start_sleep = j[1]['minute']
+    sleep_time.append((i, sum_sleep))
+
+print(max(sleep_time, key=itemgetter(1))[0])
 print(df)
-print(guard_sleep_time)
+print(sleep_time)
 
